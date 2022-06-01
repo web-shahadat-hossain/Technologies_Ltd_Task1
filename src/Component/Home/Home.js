@@ -12,7 +12,6 @@ const Home = () => {
       <Business />
       <VersatileAdLayout />
       <Outlet />
-
       <Analysis />
     </>
   );

@@ -8,13 +8,13 @@ const Header = () => {
       className=" py-2 bg-accent"
       style={{ fontFamily: "'PT Sans', sans-serif" }}
     >
-      <div class="navbar  w-11/12 mx-auto">
-        <div class="">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
+      <div className="navbar  w-11/12 mx-auto">
+        <div className="">
+          <div className="dropdown">
+            <label tabindex="0" className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -29,16 +29,16 @@ const Header = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <a>HOME</a>
               </li>
               <li tabindex="0">
-                <a class="justify-between">
+                <a className="justify-between">
                   ADVERTISERS
                   <svg
-                    class="fill-current"
+                    className="fill-current"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -47,7 +47,7 @@ const Header = () => {
                     <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
                 </a>
-                <ul class="p-2">
+                <ul className="p-2">
                   <li>
                     <a>Submenu 1</a>
                   </li>
@@ -62,8 +62,8 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        <div class="navbar-start hidden lg:flex w-full">
-          <ul class="menu menu-horizontal p-0">
+        <div className="navbar-start hidden lg:flex w-full">
+          <ul className="menu menu-horizontal p-0">
             <li>
               <NavLink className="link" to="/">
                 Home
@@ -102,7 +102,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div class="navbar-end header_button w-full lg:w-80">
+        <div className="navbar-end header_button w-full lg:w-80">
           <button className=" text-xl ">Login</button>
           <button className="header-btn shadow-lg shadow-gray-300 text-xl">
             Sing Up

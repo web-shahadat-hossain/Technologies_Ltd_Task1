@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
-/* font-family: 'Source Sans Pro', sans-serif; */
-
-/* font-family: 'PT Sans', sans-serif; */
-/* font-family: 'Source Sans Pro', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 .main_container {
   background-color: #f2f2f2;
 }
 
 .my-btn {
-  border: 0.15rem solid red;
+  border: 0.15rem solid #644f9c;
   padding: 0.4rem 2rem;
   background: #fff;
   color: black;
@@ -29,7 +26,7 @@
   top: 0;
   right: 0;
   height: 100%;
-  background-color: black;
+  background-color: #644f9c;
   z-index: -1;
   transition: 0.3s linear;
 }

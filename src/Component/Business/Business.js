@@ -13,8 +13,8 @@ const Business = () => {
       <div className="grid gap-10  md:grid-cols-3 justify-center items-center py-10 w-10/12 mx-auto text-center">
         <div>
           <div className="business">
-            <div class="avatar">
-              <div class="w-24 rounded-full">
+            <div className="avatar">
+              <div className="w-24 rounded-full">
                 <img src={img1} />
               </div>
             </div>
@@ -23,8 +23,8 @@ const Business = () => {
         </div>
         <div>
           <div className="business">
-            <div class="avatar">
-              <div class="w-24 rounded-full">
+            <div className="avatar">
+              <div className="w-24 rounded-full">
                 <img src={img3} />
               </div>
             </div>
@@ -33,8 +33,8 @@ const Business = () => {
         </div>
         <div>
           <div className="business ">
-            <div class="avatar">
-              <div class="w-24 rounded-full">
+            <div className="avatar">
+              <div className="w-24 rounded-full">
                 <img src={img2} />
               </div>
             </div>

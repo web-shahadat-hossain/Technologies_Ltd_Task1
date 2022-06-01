@@ -22,7 +22,8 @@ const Skim = () => {
           </p>
 
           <button className="mt-20 text-xl text-secondary">
-            Learn more <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Learn more{" "}
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
           </button>
         </div>
       </div>
