@@ -1,0 +1,26 @@
+.header_button {
+  background-color: #fff;
+  width: 26%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50px;
+}
+.header-btn {
+  background-color: #f5700b;
+  padding: 10px 40px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  margin: 5px;
+  color: #404040;
+}
+
+.link.active {
+  color: white;
+}
