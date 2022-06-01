@@ -3,10 +3,7 @@ import hero from "../../Assets/Images/hero.png";
 
 const HeroSection = () => {
   return (
-    <section
-      className="bg-accent"
-      style={{ fontFamily: " Source Sans Pro', sans-serif" }}
-    >
+    <section className="bg-accent">
       <div className="w-11/12 gap-5 mx-auto lg:text-left text-center lg:w-4/5 grid lg:grid-cols-2 justify-center items-center ">
         <div>
           <h1 className="text-4xl font-bold mb-10 text-neutral leading-10">

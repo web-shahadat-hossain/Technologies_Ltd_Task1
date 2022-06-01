@@ -1,14 +1,16 @@
-import logo from "./logo.svg";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./Component/Header/Header";
-import HeroSection from "./Component/HeroSection/HeroSection";
+import Home from "./Component/Home/Home";
 
 function App() {
   return (
-    <>
+    <section className="main_container">
       <Header />
-      <HeroSection />
-    </>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
+    </section>
   );
 }
 
