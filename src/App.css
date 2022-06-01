@@ -67,3 +67,12 @@
   background-color: #ec6d0c;
   color: white;
 }
+.analysis {
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

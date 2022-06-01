@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const VersatileAdLayout = () => {
   return (
@@ -17,17 +17,17 @@ const VersatileAdLayout = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink className="versatile_btn" to="banner-ad">
+              <NavLink className="versatile_btn" to="/banner-ad">
                 BANNER AD
               </NavLink>
             </li>
             <li>
-              <NavLink className="versatile_btn" to="native">
+              <NavLink className="versatile_btn" to="/native">
                 NATIVE
               </NavLink>
             </li>
             <li>
-              <NavLink className="versatile_btn" to="banner-ad">
+              <NavLink className="versatile_btn" to="/skim">
                 SKIM
               </NavLink>
             </li>
