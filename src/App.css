@@ -4,3 +4,39 @@
 
 /* font-family: 'PT Sans', sans-serif; */
 /* font-family: 'Source Sans Pro', sans-serif; */
+
+.my-btn {
+  border: 0.15rem solid red;
+  padding: 0.4rem 2rem;
+  background: #fff;
+  color: black;
+  font-size: 1.2rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  border-radius: 0.25rem;
+}
+
+.my-btn::before {
+  content: "";
+  width: 0%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: black;
+  z-index: -1;
+  transition: 0.3s linear;
+}
+
+.my-btn:hover {
+  color: white;
+}
+
+.my-btn:hover::before {
+  content: "";
+  left: 0;
+  width: 100%;
+  color: white;
+}

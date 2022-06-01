@@ -102,8 +102,8 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div class="navbar-end header_button">
-          <button className=" text-xl">Login</button>
+        <div class="navbar-end header_button w-full lg:w-80">
+          <button className=" text-xl ">Login</button>
           <button className="header-btn shadow-lg shadow-gray-300 text-xl">
             Sing Up
           </button>
